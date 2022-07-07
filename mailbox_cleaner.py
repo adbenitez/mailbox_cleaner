@@ -71,7 +71,7 @@ def clean(
                 A(date_lt=datetime.date.today() - datetime.timedelta(days=days))
             )
         )
-        return (result and len(result[1][1])) or 0
+        return len(result[1][1]) if result else 0
 
 
 def main() -> None:
