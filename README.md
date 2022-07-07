@@ -6,7 +6,7 @@ a simple CLI tool to clean IMAP folders
 [![Supported Versions](https://img.shields.io/pypi/pyversions/mailbox-cleaner.svg)](https://pypi.org/project/mailbox-cleaner)
 [![Downloads](https://pepy.tech/badge/mailbox-cleaner)](https://pepy.tech/project/mailbox-cleaner)
 [![License](https://img.shields.io/pypi/l/mailbox-cleaner.svg)](https://pypi.org/project/mailbox-cleaner)
-[![CI](https://github.com/adbenitez/mailbox-cleaner/actions/workflows/python-ci.yml/badge.svg)](https://github.com/adbenitez/mailbox-cleaner/actions/workflows/python-ci.yml)
+[![CI](https://github.com/adbenitez/mailbox_cleaner/actions/workflows/python-ci.yml/badge.svg)](https://github.com/adbenitez/mailbox_cleaner/actions/workflows/python-ci.yml)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ## Installation
