@@ -52,7 +52,7 @@ if __name__ == "__main__":
             [console_scripts]
             mailbox-cleaner=mailbox_cleaner:main
         """,
-        python_requires=">=3.6",
+        python_requires=">=3.7",
         install_requires=load_requirements("requirements/requirements.txt"),
         extras_require={
             "test": load_requirements("requirements/requirements-test.txt"),
