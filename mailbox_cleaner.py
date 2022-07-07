@@ -6,11 +6,11 @@ import datetime
 from argparse import ArgumentParser
 
 from imap_tools import A, MailBox, MailBoxTls, MailBoxUnencrypted
-from pkg_resources import DistributionNotFound, RequirementParseError, get_distribution
+from pkg_resources import DistributionNotFound, get_distribution
 
 try:
     __version__ = get_distribution(__name__).version
-except (DistributionNotFound, RequirementParseError):
+except (DistributionNotFound, ValueError):
     # package is not installed
     __version__ = "0.0.0.dev0-unknown"
 
